@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .home_row:hover {
+  box-shadow: -7px 7px 30px;
+} */
+
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.home_image {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+}
